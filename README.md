@@ -1,30 +1,10 @@
-# React + TypeScript + Vite
+Cronômetro Pomodoro em React com TypeScript e styled-components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de cronômetro Pomodoro desenvolvido em React com a precisão do TypeScript e a flexibilidade dos styled-components para estilização.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Principais Recursos:
+Pomodoro Eficiente: Utiliza a técnica Pomodoro para melhorar a produtividade, dividindo o tempo em períodos de trabalho e descanso.
+Implementação em React: Desenvolvido em React para oferecer uma experiência de usuário dinâmica e responsiva.
+TypeScript: Código mais seguro e legível com o uso do TypeScript.
+Estilização com styled-components: Estilização eficiente e reutilizável com a poderosa biblioteca styled-components.
+Sinta-se à vontade para explorar o código, contribuir com sugestões ou utilizar este projeto como base para suas próprias aplicações de gestão de tempo!
